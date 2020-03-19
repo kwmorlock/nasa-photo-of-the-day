@@ -1,12 +1,27 @@
 import React from "react";
+import styled from "styled-components";
 
 
 function Header(props) {
     return (
-    <div>
+    <Headthing>
         <h1>{props.title}</h1>
-    </div>
+    </Headthing>
     )
 }
+
+//styles
+
+const Headthing = styled.div`
+background: hotpink;
+color: black;
+width: auto;
+max-height: 300px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+margin-bottom: 20px;
+`;
 
 export default Header;
