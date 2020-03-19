@@ -35,11 +35,12 @@ flex-direction: column;
 align-items: center;
 justify-content: space-between;
 flex-wrap: wrap;
+border-radius: 50%;
 `;
 
 const Bodythingtwo = styled.div`
 background: lightblue;
-color: black;
+color: purple;
 width: auto;
 display: flex;
 flex-direction: column;
