@@ -5,7 +5,7 @@ function Body(props){
     return (
         <>
     <Bodything>
-        <img src= {props.url}/> 
+        <Imgpic src= {props.url}/> 
     </Bodything>
         <Bodythingtwo>
             <p>{props.explanation}
@@ -17,6 +17,17 @@ function Body(props){
 
 const Bodything = styled.div`
 background: lightblue;
+color: black;
+width: auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+`;
+
+const Imgpic = styled.img`
+border: 30px solid fuchsia;
 color: black;
 width: auto;
 display: flex;

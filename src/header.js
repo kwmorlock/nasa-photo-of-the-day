@@ -14,6 +14,8 @@ function Header(props) {
 
 const Headthing = styled.div`
 background: hotpink;
+border: 50px solid purple;
+border-radius: 20px;
 color: black;
 width: auto;
 display: flex;
