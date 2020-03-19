@@ -37,6 +37,8 @@ align-items: center;
 justify-content: space-between;
 flex-wrap: wrap;
 border-radius: 50%;
+margin-top: 50px;
+margin-bottom: 50px;
 `;
 
 const Bodythingtwo = styled.div`
