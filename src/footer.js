@@ -19,7 +19,6 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: space-between;
-margin-bottom: 20px;
 `;
 
 export default Footer;

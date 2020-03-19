@@ -16,27 +16,25 @@ function Body(props){
 }
 
 const Bodything = styled.div`
-background: #99f3eb;
+background: lightblue;
 color: black;
-width: 200px;
-max-height: 300px;
+width: auto;
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: space-between;
-margin-bottom: 20px;
+flex-wrap: wrap;
 `;
 
 const Bodythingtwo = styled.div`
-background: #99f3eb;
+background: lightblue;
 color: black;
-width: 200px;
-max-height: 300px;
+width: auto;
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: space-between;
-margin-bottom: 20px;
+flex-wrap: wrap;
 `;
 
 export default Body;
