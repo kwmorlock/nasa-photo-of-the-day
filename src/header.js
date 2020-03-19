@@ -11,10 +11,13 @@ function Header(props) {
 }
 
 //styles
-
-const Headthing = styled.div`
+export const Meowthing = styled.div`
 background: hotpink;
-border: 50px solid purple;
+`;
+
+const Headthing = styled(Meowthing)`
+background: hotpink;
+border: 20px solid purple;
 border-radius: 20px;
 color: black;
 width: auto;
@@ -25,3 +28,7 @@ justify-content: space-between;
 `;
 
 export default Header;
+
+
+//Meowthing has to be above Headthing, order matters
+//have to export to use in another file

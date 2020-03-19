@@ -15,6 +15,7 @@ function Body(props){
     )
 }
 
+
 const Bodything = styled.div`
 background: lightblue;
 color: black;
@@ -27,7 +28,7 @@ flex-wrap: wrap;
 `;
 
 const Imgpic = styled.img`
-border: 30px solid fuchsia;
+border: 10px solid fuchsia;
 color: black;
 width: auto;
 display: flex;
